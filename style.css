@@ -1,0 +1,51 @@
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.result{
+ border: 0px solid gray;
+ height: 10px;
+ overflow: auto;
+ /* padding: 2px; */
+ resize: both;
+ width: 100%;
+ caret-color:#000  !important;
+ padding: 15px !important;
+ text-align: right;
+ text-decoration: none !important;
+}
+
+table{
+   border: 2px solid black;
+   text-decoration: none;
+   color: #000;
+}
+tr{
+   border: 2px solid black;
+}
+td{
+  border: 2px solid black;
+  text-align:center;
+  font-weight:bolder;
+  font-size: 20px
+}
+ a{
+text-decoration: none !important;
+  color: #000 !important;
+  text-align:center;
+ width: 100%;
+ /* border: 1px solid #000; */
+}
+
+ .zero{
+   width: 135px;
+   text-align: center;
+ }
+ 
+ .dot{
+   font-size: 30px;
+/*    font-weight:900;
+    */ }
+
